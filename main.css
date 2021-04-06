@@ -1,10 +1,11 @@
 body {
-    border: 2px solid;
-    border-radius: 2px;
+    border: 3px solid;
+    border-radius: 3px;
     width:500px;
     color:#a2a2a2;
-    font-family: 'helvetica', 'serif';
-    font-weight:bold;
+    font-family:'engel-light-ltd';
+    font-size: 30px;
+    font-weight: 900;
       
 
 }
@@ -12,8 +13,8 @@ body {
 
 .globo {
 
-        margin-top: 5px;
-        margin-left: 16px;
+        margin-top: 10px;
+        margin-left: 33px ;
         color:#a2a2a2;
         
 }
@@ -21,9 +22,9 @@ body {
 
 .top {
 
-    border: 2px solid;
+    border: 3px solid;
     margin : 10px;
-    border-radius:2px;
+    border-radius:3px;
     color:#eb49af;
 
 
@@ -33,16 +34,17 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
+
 }
 
 .meio {
 
- border:2px solid;
- border-radius:2px;
+ border:3px solid;
+ border-radius:3px;
  margin-left:10px;
  margin-bottom: 10px;
  display: inline-block;
-width: 265px;
+width: 260px;
 height:350px;
 color:#b1e2d3;
 
@@ -50,8 +52,8 @@ color:#b1e2d3;
 
 .menu-1 {
     float:right;
-    border: 2px solid;
-    border-radius:2px;
+    border: 3px solid;
+    border-radius:3px;
     width:200px;
     height:350px;
     margin-right:10px;
@@ -60,14 +62,29 @@ color:#b1e2d3;
 
 .footer {
 
-    border:2px solid;
-    border-radius:2px;
+    border:3px solid;
+    border-radius:3px;
     margin-left:10px;
     margin-right:10px;
     margin-bottom: 10px;
     height:100px;
     color:#ff942e;
-
     
+}
+
+#fontefooter {
+    margin-top: 35px;
+    margin-bottom: px;
+    margin-left: 20px;
+    
+}
+
+@font-face {
+    font-family: 'engel-light-ltd';
+    src: url('engel-light-ltd.eot');
+    src: url('engel-light-ltd.eot?#iefix') format('embedded-opentype'),
+        url('engel-light-ltd.woff') format('woff'),
+        url('engel-light-ltd.ttf') format('truetype'),
+        url('engel-light-ltd.svg#engel-light-ltd') format('svg');
     
 }
